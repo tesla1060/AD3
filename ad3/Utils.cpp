@@ -23,7 +23,7 @@ namespace AD3 {
 
 #ifdef _WIN32
 
-//#include <windows.h> //I've ommited this line.
+#include <windows.h> //I've ommited this line.
 #if defined(_MSC_VER) || defined(_MSC_EXTENSIONS)
   #define DELTA_EPOCH_IN_MICROSECS  11644473600000000Ui64
 #else
